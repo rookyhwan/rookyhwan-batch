@@ -2,7 +2,6 @@ plugins {
 	id 'org.springframework.boot' version '2.4.0-SNAPSHOT'
 	id 'io.spring.dependency-management' version '1.0.9.RELEASE'
 	id 'java'
-	id 'war'
 }
 
 group = 'me.blog.rookyhwan'
@@ -30,7 +29,7 @@ dependencies {
 	compile('javax.servlet:jstl:1.2')
 	runtimeOnly 'com.h2database:h2'
 	annotationProcessor 'org.projectlombok:lombok'
-	providedRuntime 'org.springframework.boot:spring-boot-starter-tomcat'
+	//providedRuntime 'org.springframework.boot:spring-boot-starter-tomcat'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
