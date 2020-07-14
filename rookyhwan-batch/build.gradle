@@ -38,6 +38,7 @@ test {
 	useJUnitPlatform()
 }
 
-task stage {
-  dependsOn assemble
+jar {
+    baseName = 'app'
+    version = '0.0.1'
 }
